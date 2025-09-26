@@ -2,17 +2,6 @@
 
 Content Based Recommender System recommends movies similar to the movie user likes and analyses the sentiments on the reviews given by the user for that movie.
 
-<blockquote>
-   <b>Note</b>: The application has been updated to a newer version. Get the source code of the newer version <a href="https://github.com/kishan0725/AJAX-Movie-Recommendation-System-with-Sentiment-Analysis">here</a>
-</blockquote>
-
-![GIF](./static/mrswsa.gif)
-
-
-Check out the youtube video if the above preview is not visible: https://www.youtube.com/watch?v=muPDsWgMkpc
-
-Check out the live demo: https://mrswsa.herokuapp.com/
-
 The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api, and using the IMDB id of the movie in the API, I did web scraping to get the reviews given by the user in the IMDB site using `beautifulsoup4` and performed sentiment analysis on those reviews.
 
 ## How to get the API key?
@@ -49,4 +38,5 @@ More about Cosine Similarity : [Understanding the Math behind Cosine Similarity]
 3. [List of movies in 2018](https://en.wikipedia.org/wiki/List_of_American_films_of_2018)
 4. [List of movies in 2019](https://en.wikipedia.org/wiki/List_of_American_films_of_2019)
 5. [List of movies in 2020](https://en.wikipedia.org/wiki/List_of_American_films_of_2020)
+
 
